@@ -1,0 +1,22 @@
+{
+    "name": "bjort",
+    "displayName": "bjort",
+    "description": "vscode... bjortified",
+    "version": "0.0.1",
+    "publisher": "bjort",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "bjort theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bjort theme-color-theme.json"
+            }
+        ]
+    }
+}
